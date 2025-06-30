@@ -71,3 +71,69 @@ font-weight: 700;}
   font-weight: 500;
 color: rgb(72, 75, 80);;
 }
+.section {
+  margin-top: 50px;
+  padding: 60px 40px;
+}
+
+.section.light {
+  background-color: #f4f4f4;
+  color:black;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.image {
+  width: 100%;
+  max-width: 700px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+.driver-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.driver {
+  text-align: center;
+}
+
+.driver img {
+  width: 700px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.driver {
+    color: black;
+
+
+}
+.container {
+    color: black;
+    text-align: center;
+
+}
+
+.hero-content{
+    color: #f4f4f4;
+}
+
+.driver {
+    width: 700px; 
+      transition: transform 1s ease;
+
+}
+.driver :hover {
+   transform: scale(1.05);
+}
+.lando {
+  width: 700px;
+}
