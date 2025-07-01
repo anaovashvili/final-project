@@ -280,3 +280,45 @@ footer {
 .bio h2 {
   margin-top: 0;
 }
+.contact-footer {
+  background-color: #ff8000;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.contact-footer .social-icons {
+  margin-bottom: 10px;
+}
+
+.contact-footer .social-icons a {
+  color: #333;
+  margin: 0 8px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-footer .social-icons a:hover {
+  color: white;
+}
+
+.contact-footer .team-contact {
+  margin: 15px 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.contact-footer .team-contact p {
+  margin: 4px 0;
+}
+
+.contact-footer .team-contact a {
+  color: #333;
+  text-decoration: none;
+}
+
+.contact-footer p:last-child {
+  margin: 10px 0 0;
+  font-size: 0.9rem;
+  color: #555;
+}
