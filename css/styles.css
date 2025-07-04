@@ -435,3 +435,71 @@ margin-bottom: 15px;
   background: #ff8b17;
 background: linear-gradient(90deg, rgba(255, 139, 23, 1) 0%, rgba(255, 162, 69, 1) 50%, rgba(255, 242, 125, 1) 100%);
 }
+
+.side-by-side-section {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+  align-items: center;
+  background-color: #fff8f0;
+  color: #333;
+}
+
+.images-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.images-column img {
+  width: 350px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  object-fit: cover;
+  height: 220px;
+}
+
+.text-column {
+  flex: 1;
+}
+
+
+.text-column p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+.images-column img {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.images-column img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 25px rgba(255, 128, 0, 0.6); 
+}
+
+
+
+
+.side-by-side-section:hover .text-block {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+.text-block {
+  position: absolute;
+  top: 0;
+  right: 0;         
+  background: rgba(0,0,0,0.6); 
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 0 15px 15px 0; 
+  z-index: 2;
+}
+
+
