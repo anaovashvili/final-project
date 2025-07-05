@@ -501,5 +501,21 @@ background: linear-gradient(90deg, rgba(255, 139, 23, 1) 0%, rgba(255, 162, 69, 
   border-radius: 0 15px 15px 0; 
   z-index: 2;
 }
+.back-arrow {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 20px;
+  color: white;
+  background-color: black; 
+  padding: 10px;
+  z-index: 9999;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
 
+.back-arrow:hover {
+  background-color: #333; 
+}
 
