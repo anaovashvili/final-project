@@ -37,7 +37,7 @@ font-weight: 700;}
     max-width: 100%;
     max-height: 100%;
 
-  z-index: -1;
+  z-index: 999;
 }
     .navbar-mclaren {
   background-color: white;
@@ -527,10 +527,9 @@ margin-top: 135px;
   width: 100%;
   height: auto;
   display: block;
+  margin-left: -300px;
 }
-.background-video {
-  object-fit: cover;
-}
+
 
 
 
@@ -580,20 +579,52 @@ margin-bottom: 210px;
 
 .text-column1 h2 {
   font-size: 48px; 
+  color: #000;
   text-transform: uppercase;
 
 }
 
 .text-column1 p {
+  color: #333;
+  margin-top: 15px;
   font-size: 19px;
   line-height: 25.6px; 
 }
 .intro-section {
-  background: #ffffff;
-background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(189, 189, 189, 1) 50%, rgba(148, 146, 146, 1) 100%);
 
-
-  color: black;
+background-color: #f4f4f4;
   text-align: center;
 
+}
+.hero {
+  background: #ffffff;
+background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(212, 212, 212, 1) 50%, rgba(230, 230, 230, 1) 100%);
+}
+
+.f1-team-section {
+background: #ffffff;
+background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(212, 212, 212, 1) 50%, rgba(230, 230, 230, 1) 100%);
+color: #333;
+  text-align: center;
+  padding: 100px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f1-team-container {
+  max-width: 800px;
+}
+
+.f1-team-heading {
+  font-size: 48px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ff7f0a; 
+}
+
+.f1-team-description {
+  font-size: 18px;
+  line-height: 1.8;
 }
