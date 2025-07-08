@@ -702,3 +702,148 @@ color: #333;
 .line img {
 height: 41.89px;
 }
+
+
+
+
+
+@media screen and (max-width: 480px) {
+  .nav-links1 {
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+  }
+
+  .hero-content {
+    padding-top: 100px !important;
+    margin-right: 10px !important;
+    text-align: center !important;
+  }
+
+  .hero h1 {
+    font-size: 28px !important;
+  }
+
+  .hero p {
+    font-size: 16px !important;
+  }
+
+  .intro-flex {
+    flex-direction: column !important;
+    height: auto !important;
+  }
+
+  .photo-column1,
+  .text-column1 {
+    width: 100% !important;
+    padding: 10px !important;
+  }
+}
+
+
+@media screen and (max-width: 720px) {
+  .nav-links1 {
+    gap: 15px;
+  }
+
+  .hero-content {
+    padding-top: 130px !important;
+    text-align: center !important;
+    margin-right: 0 !important;
+  }
+
+  .hero h1 {
+    font-size: 32px !important;
+  }
+
+  .hero p {
+    font-size: 18px !important;
+  }
+
+  .intro-flex {
+    flex-direction: column !important;
+    height: auto !important;
+  }
+
+  .photo-column1,
+  .text-column1 {
+    width: 100% !important;
+    padding: 20px !important;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .intro-flex {
+    flex-direction: column !important;
+    height: auto !important;
+  }
+
+  .photo-column1,
+  .text-column1 {
+    width: 100% !important;
+    padding: 30px !important;
+  }
+
+  .hero-content {
+    padding-top: 160px !important;
+    text-align: center !important;
+    margin-right: 0 !important;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .hero {
+    display: flex;
+    flex-direction: column !important;
+    height: auto !important;
+    padding-top: 0 !important; 
+    position: relative; 
+  }
+
+  .background-video {
+    position: relative !important; 
+    width: 100% !important;
+    max-height: none !important;
+    margin: 0 0 20px 0 !important;
+    top: auto !important;
+    left: auto !important;
+    z-index: 1;
+    object-fit: cover;
+  }
+
+  .hero-content {
+    position: relative !important;
+    width: 100% !important;
+    padding: 20px !important;
+    margin: 0 !important;
+    text-align: center !important;
+    max-width: none !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 24px !important;
+  }
+
+  .hero-content p {
+    font-size: 14px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
