@@ -629,7 +629,9 @@ color: #333;
   line-height: 1.8;
 }
 
-
+.info {
+  margin-bottom: 120px;
+}
 
 .hero-section {
   position: relative;
@@ -835,47 +837,3 @@ height: 41.89px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 1450px) {
-  .intro-flex {
-    flex-direction: column;
-    height: auto;
-  }
-
-  .photo-column1,
-  .text-column1 {
-    width: 100%;
-  }
-
-  .photo-column1 img {
-    width: 100%;
-    height: auto;
-  }
-
-  .text-column1 {
-    padding: 30px;
-    margin-bottom: 60px;
-    text-align: center;
-    align-items: center;
-  }
-
-  .text-column1 h2 {
-    font-size: 36px;
-  }
-
-  .text-column1 p {
-    font-size: 18px;
-    line-height: 1.6;
-  }
-}
