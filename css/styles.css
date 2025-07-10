@@ -936,3 +936,44 @@ height: 41.89px;
     height: auto;
   }
 }
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+  .term {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .term img {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  .term-content {
+    padding: 0 20px;
+  }
+
+  .term-content h2 {
+    font-size: 20px;
+  }
+
+  .term-content p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .term-content h2 {
+    font-size: 18px;
+  }
+
+  .term-content p {
+    font-size: 14px;
+  }
+}
