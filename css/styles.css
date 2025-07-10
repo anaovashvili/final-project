@@ -851,12 +851,6 @@ height: 41.89px;
   }
 }
 
-
-
-
-
-
-
 @media screen and (max-width: 480px) {
   .hero {
     height: auto;
@@ -888,5 +882,57 @@ height: 41.89px;
   .hero p {
     font-size: 16px;
     padding: 0 15px;
+  }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1500px) {
+  .drivers-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    text-align: center;
+  }
+
+  .drivers-header img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin-top: 0;
+  }
+
+  .drivers-header h1 {
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .drivers-header p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .drivers-header h1 {
+    font-size: 28px;
+  }
+
+  .drivers-header p {
+    font-size: 18px;
+    padding: 0 20px;
+  }
+
+  .drivers-header img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
   }
 }
