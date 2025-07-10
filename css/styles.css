@@ -709,131 +709,184 @@ height: 41.89px;
 
 
 
-@media screen and (max-width: 480px) {
-  .nav-links1 {
-    flex-direction: column;
-    gap: 10px;
-    font-size: 14px;
-  }
 
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
   .hero-content {
-    padding-top: 100px !important;
-    margin-right: 10px !important;
-    text-align: center !important;
+    padding-top: 150px;
+    text-align: center;
+    margin-right: 0;
   }
 
-  .hero h1 {
-    font-size: 28px !important;
-  }
-
-  .hero p {
-    font-size: 16px !important;
-  }
-
-  .intro-flex {
-    flex-direction: column !important;
-    height: auto !important;
-  }
-
-  .photo-column1,
-  .text-column1 {
-    width: 100% !important;
-    padding: 10px !important;
-  }
-}
-
-
-@media screen and (max-width: 720px) {
-  .nav-links1 {
-    gap: 15px;
-  }
-
-  .hero-content {
-    padding-top: 130px !important;
-    text-align: center !important;
-    margin-right: 0 !important;
-  }
-
-  .hero h1 {
-    font-size: 32px !important;
-  }
-
-  .hero p {
-    font-size: 18px !important;
-  }
-
-  .intro-flex {
-    flex-direction: column !important;
-    height: auto !important;
-  }
-
-  .photo-column1,
-  .text-column1 {
-    width: 100% !important;
-    padding: 20px !important;
+  .background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 0;
   }
 }
 
 
 @media screen and (max-width: 1024px) {
   .intro-flex {
-    flex-direction: column !important;
-    height: auto !important;
+    flex-direction: column;
+    height: auto;
   }
 
   .photo-column1,
   .text-column1 {
-    width: 100% !important;
-    padding: 30px !important;
+    width: 100%;
+    padding: 20px;
   }
 
-  .hero-content {
-    padding-top: 160px !important;
-    text-align: center !important;
-    margin-right: 0 !important;
+  .photo-column1 {
+    align-items: center;
+  }
+
+  .photo-column1 img {
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+  }
+
+  .text-column1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .text-column1 h2 {
+    font-size: 36px;
+  }
+
+  .text-column1 p {
+    font-size: 16px;
   }
 }
-@media screen and (max-width: 1440px) {
+
+
+@media screen and (max-width: 768px) {
+  .side-by-side-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .images-column {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .images-column img {
+    width: 45%;
+    height: auto;
+  }
+
+  .text-column {
+    text-align: center;
+  }
+
+  .block-gap {
+    margin-top: 40px;
+  }
+}
+
+
+@media screen and (max-width: 720px) {
+  .navbar-mclaren {
+
+    padding: 15px;
+  }
+
+  .nav-links1 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .logo img,
+  .tbc img {
+    height: 30px;
+  }
+}
+
+
+@media screen and (max-width: 1500px) {
   .hero {
-    display: flex;
-    flex-direction: column !important;
-    height: auto !important;
-    padding-top: 0 !important; 
-    position: relative; 
+    height: auto;
   }
 
   .background-video {
-    position: relative !important; 
-    width: 100% !important;
-    max-height: none !important;
-    margin: 0 0 20px 0 !important;
-    top: auto !important;
-    left: auto !important;
-    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: auto;
     object-fit: cover;
+    margin-top: 140px;
+    margin-left: 0;
+  }
+.line {
+  margin-top: 20px;
+}
+  .hero-content {
+    text-align: center;
+    padding-top: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .hero p {
+    font-size: 18px;
+    padding: 0 20px;
+  }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+  .hero {
+    height: auto;
+  }
+
+  .background-video {
+    position: relative;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 120px;
+    margin-left: 0;
   }
 
   .hero-content {
-    position: relative !important;
-    width: 100% !important;
-    padding: 20px !important;
-    margin: 0 !important;
-    text-align: center !important;
-    max-width: none !important;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .hero p {
+    font-size: 16px;
+    padding: 0 15px;
   }
 }
-
-@media screen and (max-width: 480px) {
-  .hero-content h1 {
-    font-size: 24px !important;
-  }
-
-  .hero-content p {
-    font-size: 14px !important;
-  }
-}
-
-
-
-
-
