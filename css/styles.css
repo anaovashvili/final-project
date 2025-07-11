@@ -713,7 +713,12 @@ height: 41.89px;
 
 
 
-
+@media screen and (max-width: 1600px) 
+{
+    .photo-column1 {
+  margin-bottom: -100px;
+}
+}
 
 
 @media screen and (max-width: 1024px) {
@@ -729,6 +734,7 @@ height: 41.89px;
     object-fit: cover;
     margin-left: 0;
   }
+.text-column1 {margin-top: 50px;}
 }
 
 
@@ -976,9 +982,7 @@ height: 41.89px;
     font-size: 14px;
   }
 }
-.photo-column1 {
-  margin-bottom: -100px;
-}
+
 .text-column {
   margin-bottom: 200px;
 }
