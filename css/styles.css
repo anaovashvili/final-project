@@ -891,7 +891,6 @@ height: 41.89px;
 
 
 
-
 @media screen and (max-width: 1500px) {
   .drivers-header {
     display: flex;
@@ -976,4 +975,13 @@ height: 41.89px;
   .term-content p {
     font-size: 14px;
   }
+}
+.photo-column1 {
+  margin-bottom: -100px;
+}
+.text-column {
+  margin-bottom: 200px;
+}
+.margin {
+  margin-bottom: 70px;
 }
