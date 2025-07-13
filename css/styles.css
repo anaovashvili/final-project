@@ -986,7 +986,12 @@ color: #333;
   .term-content h2 {
     font-size: 18px;
   }
-
+  .cards-wrapper {
+    margin-top: 40px;
+  }
+.driver img {
+  margin-right: -80px !important;
+}
   .term-content p {
     font-size: 14px;
 
@@ -1264,6 +1269,8 @@ margin-left: -80px;
     font-size: 18px;
   }
 }
-
+.cards-wrapper {
+  margin-bottom: 40px;
+}
 
 
